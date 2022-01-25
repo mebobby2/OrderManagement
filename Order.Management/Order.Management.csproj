@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="orders\" />
+    <None Remove="Pricing\" />
+    <None Remove="Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Orders\" />
+    <Folder Include="Pricing\" />
+    <Folder Include="Reports\" />
+  </ItemGroup>
 </Project>
