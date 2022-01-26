@@ -1,5 +1,5 @@
 ﻿using System;
-using Order.Management.Orders
+using Order.Management.Orders;
 namespace Order.Management.Reports
 {
     abstract class Report
@@ -9,9 +9,6 @@ namespace Order.Management.Reports
 
         public abstract void GenerateReport();
 
-        public string ToString()
-        {
-            return "\nName: " + CustomerName + " Address: " + Address + " Due Date: " + DueDate + " Order #: " + OrderNumber;
-        }
+      
     }
 }
